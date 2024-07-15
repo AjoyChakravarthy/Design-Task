@@ -1,0 +1,24 @@
+.features {
+   display: flex;
+   gap: 51px;
+   justify-content: center;
+   margin-top: 193px;
+}
+
+@media (max-width: 1280px) {
+   .features {
+      gap: 20px;
+   }
+}
+
+@media (max-width: 1024px) {
+   .features {
+      flex-direction: column;
+      align-items: center;
+   }
+}
+@media (max-width: 500px) {
+   .features {
+      margin-top: 100px;
+   }
+}

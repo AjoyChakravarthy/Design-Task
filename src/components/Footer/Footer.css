@@ -1,0 +1,15 @@
+.footer {
+   font-size: 19px;
+   font-weight: 300;
+   line-height: 26px;
+   font-family: roboto;
+   text-align: center;
+   margin-top: 310px;
+   margin-bottom: 57px;
+}
+
+@media (max-width: 800px) {
+   .footer {
+      margin-top: 200px;
+   }
+}
